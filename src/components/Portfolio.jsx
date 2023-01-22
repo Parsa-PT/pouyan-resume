@@ -6,7 +6,6 @@ import Scroll from './Scroll'
 
 const Portfolio = () => {
 
-const Portfolio = () => {
 
   const project = [
     {
@@ -40,8 +39,8 @@ const Portfolio = () => {
                   <img className=' hover:scale-105 duration-150' src={item.url} alt="mypic" />
                   <p className='text-white'>{item.title}</p>
                    <div className='lg:flex lg:gap-4 px-3'>
-                  <a target={'_blank'} rel="noreferrer" className='btn-bg w-[10rem] mb-3 text-white px-4 py-2 rounded-md flex  justify-center' href={item.address}>GitHub </a>
-                  <a target={'_blank'}  rel="noreferrer" className='btn-bg w-[10rem] mb-3 text-white px-4 py-2 rounded-md flex  justify-center' href={item.liveMode}>Live </a>
+                      <a target={'_blank'} rel="noreferrer" className='btn-bg w-[10rem] mb-3 text-white px-4 py-2 rounded-md flex  justify-center' href={item.address}>GitHub </a>
+                      <a target={'_blank'}  rel="noreferrer" className='btn-bg w-[10rem] mb-3 text-white px-4 py-2 rounded-md flex  justify-center' href={item.liveMode}>Live </a>
                   </div>
               </div>
             )
